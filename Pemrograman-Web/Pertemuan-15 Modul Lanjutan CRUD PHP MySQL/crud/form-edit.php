@@ -28,7 +28,7 @@ if( mysqli_num_rows ($query) < 1 ){
 		<fieldset>
 			<input type="hidden" name="id" value="<?php echo $siswa['id'] ?>" />
 		<p>
-			<label for="nama”>Nama: </label>
+			<label for="nama">Nama: </label>
 			<input type="text" name="nama" placeholder="nama lengkap" value="<?php echo $siswa ['nama'] ?>" />
 		</p> 
 		<p>
